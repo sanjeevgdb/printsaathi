@@ -146,8 +146,11 @@
   .dl .meta{font-size:.78rem;color:var(--muted)}
   .dl ul{margin:.3rem 0 .5rem;padding-left:1.1rem;color:var(--muted);font-size:.9rem;display:flex;flex-direction:column;gap:.28rem;position:relative}
   .dl .btn{margin-top:auto;justify-content:center}
-  .note{font-size:.84rem;color:var(--muted);background:var(--surface);border:1.5px dashed var(--line);border-radius:14px;padding:.9rem 1.1rem;margin-top:1.2rem}
-  .note strong{color:var(--ink)}
+  .note{font-size:.88rem;color:var(--muted);background:var(--surface);border:1.5px dashed var(--line);border-radius:14px;padding:1.1rem 1.2rem;margin-top:1.2rem}
+  .note strong{color:var(--ink);font-family:var(--font-head)}
+  .note ol{margin:.6rem 0 0;padding-left:1.3rem;display:flex;flex-direction:column;gap:.5rem}
+  .note b{color:var(--ink)}
+  .note .ok{display:inline-block;margin-top:.7rem;color:var(--c6);font-weight:600}
 
   /* buy band */
   .buy{position:relative;overflow:hidden;background:linear-gradient(130deg,var(--g1),var(--g2) 55%,var(--g3));color:#fff;border-radius:26px}
@@ -285,7 +288,14 @@
         </a>
       </div>
     </div>
-    <p class="note"><strong>Installing:</strong> these are direct APKs, so when you open the file Android may ask to “Allow from this source”. Turn it on once, then tap Install. Works on Android 8.0 and above.</p>
+    <div class="note"><strong>Installing is safe — just 3 taps 👍</strong><br>
+      Because these apps come straight from us (not the Play Store), Android shows one or two normal warnings. Every direct app does this — nothing is wrong.
+      <ol>
+        <li><b>Open</b> the downloaded file. If Android asks, turn on <b>“Allow from this source”</b>.</li>
+        <li>Google <b>Play Protect</b> may say <b>“unsafe”</b> or <b>“app not scanned”</b>. Tap <b>More details → Install anyway</b> — or tap <b>Scan</b>, let it finish, then <b>Install</b>.</li>
+        <li>Tap <b>Install</b>. That’s it.</li>
+      </ol>
+      <span class="ok">✓ Works on Android 8.0 and above</span></div>
   </div>
 </section>
 
